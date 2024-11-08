@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(245, 136, 97);
+}
+.container{
+    background-color: rgb(201, 200, 105);
+    height: auto;
+    width: 30%;
+    border-radius: .8rem;
+    padding-left: .5rem;
+    padding-bottom: 0.5rem;
+    padding-right: .5rem;
+}
+.container h2{
+    margin-top: 1rem;
+    text-align: center;
+    color: rgb(232, 139, 139);
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(226, 231, 69), 0 0 0.2em rgb(22, 134, 209);
+}
+form{
+    margin: 2rem 0 1rem 0;
+    
+}
+form select,button,input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: .7rem;
+}
+.amount p{
+    margin: 0rem 0rem .5rem 0;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+.amount input{
+    width: 40%;
+    height: 2rem;
+    padding-left: 1.5rem;
+    border: 2px solid rgb(235, 124, 80);
+    background-color: rgb(226, 186, 26);
+}
+.amount input:hover{
+    background-color: rgb(253, 230, 230);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.2rem;
+    
+}
+.select-container img{
+    max-width: 2rem;
+}
+.from p,.to p{
+    font-size: 1.2rem;
+    font-weight: 550;
+    margin-bottom: .5rem;
+}
+.from select,.to select{
+    background-color: rgb(201, 200, 105);
+    font-weight: 700;
+}
+.select-container{
+    display: flex;
+    border: 2px solid rgb(220, 121, 45);
+    border-radius: .2rem;
+    padding: .1rem;
+}
+.dropdown i{
+    color: black;
+    margin-top: 1rem;
+}
+.msg{
+    font-size: 1.3rem;
+    text-align: center;
+    margin: .5rem;
+    font-weight: bolder;
+}
+.exchange{
+    height: 2rem;
+    font-size: 1rem;
+    background-color: rgb(9, 143, 143);
+    color: white;
+    cursor: pointer;
+
+}
+.exchange:hover{
+    background-color: rgb(80, 151, 151);
+    color: black;
+}
